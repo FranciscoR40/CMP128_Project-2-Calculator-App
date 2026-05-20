@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>Calculator App</title>
+
+    <meta name="Francisco Ramirez" content="The Calculator">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="./script.js"></script>
+
+</head>
+
+<body>
+
+        
+    <br>
+    
+    <header class="theMainHeading">
+    <h1 id="theHeading">Calculator App</h1>
+    </header>
+
+
+    <br> 
+ 
+
+    <section class="calcLayout">
+    <br>
+
+    <p id="theDisplay"></p>
+
+
+    <button id="topRow" onclick="setOperation('+')">+</button>
+    <button id="topRow" onclick="setOperation('-')">-</button>
+    <button id="topRow" onclick="setOperation('*')">x</button>
+    <button id="topRow" onclick="setOperation('/')">/</button>
+    </div>
+
+
+
+    <div>
+    <button onclick="pressNumber(7)">7</button>
+    <button onclick="pressNumber(8)">8</button>
+    <button onclick="pressNumber(9)">9</button>
+    <button id="theEqual" onclick="calculateResult()">=</button>
+    </div>
+
+
+
+    <div>
+    <button onclick="pressNumber(4)">4</button>
+    <button onclick="pressNumber(5)">5</button>
+    <button onclick="pressNumber(6)">6</button>
+    </div>
+
+
+
+    <div>
+    <button onclick="pressNumber(1)">1</button>
+    <button onclick="pressNumber(2)">2</button>
+    <button onclick="pressNumber(3)">3</button>
+    </div>
+
+
+
+    <div>
+    <button id="bottomRow" onclick="pressNumber(0)">0</button>
+    <button id="bottomRow" onclick="pressNumber('.')">.</button>
+    <button id="bottomRow" onclick="clearDisplay()">C</button>
+    
+    
+    </section>
+
+</body>
+</html>

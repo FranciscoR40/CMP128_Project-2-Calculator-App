@@ -1,0 +1,111 @@
+body{
+    background-image:url(https://unity.edu/wp-content/uploads/2025/04/concept-of-school-and-education-with-blackboard-2023-11-27-04-55-10-utc-1024x683-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.theMainHeading{
+    background-color: green;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-right: 3px solid;
+    border-left: 3px solid ;
+    width: 450px;
+    height: 60px;
+    display: block;
+    margin: auto;
+}
+
+#theHeading{
+    color: darkblue;
+    background-color: white;
+    margin-top: 13px;
+    margin-bottom: 7px;
+
+    
+}
+
+
+
+
+.calcLayout{
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(195, 195, 195);
+    width: 600px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#theDisplay{
+    background-color: white;
+    border: 3px solid rgb(195, 195, 195);
+    height: 60px;
+    width: 510px;
+    color: black;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size:50px;
+
+}
+
+
+
+button{
+    margin-left: 25px;
+    margin-bottom: 15px;
+    height:70px;
+    width: 115px;
+    border-radius: 3px;
+    border-color: rgb(217, 217, 217);
+    cursor: pointer;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+button:hover{
+    transition: tranform 0.4s ease, box-shadow 0.4s ease; 
+    transform: scale(1.03);
+    box-shadow: 0 0px 40px gray;
+}
+
+#theEqual:hover{
+    transition:tranform 0.4s ease ;
+    transform: scale(1.03);
+}
+
+#theEqual{
+    color: white;
+    background-color: rgb(7, 95, 202);
+    height: 325px;
+    float: right;
+    margin-right: 25px;
+}
+
+#topRow{
+    background-color: rgb(193, 193, 193);
+}
+
+#bottomRow{
+    margin-bottom: 30px;
+
+}
+
+
+
+
+
+
+
